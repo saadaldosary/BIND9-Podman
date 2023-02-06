@@ -11,5 +11,5 @@ EXPOSE 53/tcp
 WORKDIR ./ 
 
 VOLUME ./config:/etc/bind
-VOLUME ./cache:/var/lib/cache 
+VOLUME ./cache:/var/cache/bind 
 VOLUME ./records:/var/lib/bind 
