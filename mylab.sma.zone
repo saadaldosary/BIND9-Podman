@@ -1,8 +1,8 @@
 $TTL 2d 
 
-$ORIGIN mylab.sma
+$ORIGIN mylab.sma.
 
-@       IN        SOA       ns.mylab.sma    info.mylab.sma (
+@       IN        SOA       ns.mylab.sma.    info.mylab.sma. (
                             0000000001  ;serial 
                             12h         ; refresh 
                             15m         ; retry 
