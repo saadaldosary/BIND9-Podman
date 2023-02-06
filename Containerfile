@@ -1,12 +1,8 @@
 FROM docker.io/ubuntu/bind9
-MAINTAINER SAAD saadaldosary15@gmail.com
+MAINTAINER SAAD sma-info@gmail.com
 
-USER saad 
-
-ENV BIND9_USER=saad
 ENV TZ=Asia/Riyadh
-EXPOSE 53/udp 
-EXPOSE 53/tcp 
+EXPOSE 53/udp  
 
 WORKDIR ./ 
 
