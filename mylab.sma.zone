@@ -1,0 +1,18 @@
+$TTL 2d 
+
+$ORIGIN mylab.sma
+
+@       IN        SOA       ns.mylab.sma    info.mylab.sma (
+                            0000000001  ;serial 
+                            12h         ; refresh 
+                            15m         ; retry 
+                            3w          ; expire 
+                            2h          ; minimum ttl                           
+                            );
+                  IN        NS        ns.mylab.sma
+ns                IN        A         127.0.0.1
+
+
+; -- add dns records 
+server1           IN        A         10.10.10.10
+*.server1         IN        A         10.10.10.10
